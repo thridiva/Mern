@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1
+      style="
+        color: blue;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+      "
+    >
+      Registration form
+    </h1>
+    <form style="display: flex; flex-direction: column; align-items: center">
+      <table border="1px solid black" width="700px" cellspacing="0">
+        <tr>
+          <th>
+            <lable for="First Name" style="padding-right: 70px"
+              >First Name</lable
+            >
+          </th>
+          <td>
+            <input
+              type="box"
+              name="First Name"
+              style="width: 100%; padding: 0; box-sizing: border-box"
+            />
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <lable for="Last  Name" style="padding-right: 70px"
+              >Last Name</lable
+            >
+          </th>
+          <td>
+            <input
+              type="box"
+              name="Last Name"
+              style="width: 100%; padding: 0; box-sizing: border-box"
+            />
+          </td>
+        </tr>
+        <tr>
+          <th><lable for="Email" style="padding-right: 70px">Email</lable></th>
+
+          <td>
+            <input
+              type="box"
+              name="Email"
+              style="width: 100%; padding: 0; box-sizing: border-box"
+            />
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <lable for="Password" style="padding-right: 70px">Password</lable>
+          </th>
+
+          <td>
+            <input
+              type="box"
+              name="Password"
+              style="width: 100%; padding: 0; box-sizing: border-box"
+            />
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <lable for="Re-enter Password" style="padding-right: 70px">
+              Re-enter Password</lable
+            >
+          </th>
+          <td>
+            <input
+              type="box"
+              name="Re-enter Password"
+              style="width: 100%; padding: 0; box-sizing: border-box"
+            />
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <lable for="Gender" style="padding-right: 70px">Gender</lable>
+          </th>
+          <td>
+            <table width="100%">
+              <tr>
+                <td style="border-bottom: 1px solid black; width: 100%">
+                  <input type="radio" name="gender" value="Male" />
+                  <lable for="gender">Male</lable>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="radio" name="gender" value="female" />
+                  <lable for="gender">Female</lable>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <th><lable for="Age" style="padding-right: 70px">Age</lable></th>
+
+          <td>
+            <input
+              type="box"
+              name="Age"
+              style="width: 100%; padding: 0; box-sizing: border-box"
+            />
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <lable for="Phone Number" style="padding-right: 70px"
+              >Phone Number</lable
+            >
+          </th>
+
+          <td>
+            <input
+              type="box"
+              name="Phone Number"
+              style="width: 100%; padding: 0; box-sizing: border-box"
+            />
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <lable for="Address" style="padding-right: 70px">Address</lable>
+          </th>
+          <td>
+            <textarea
+              rows="5"
+              style="width: 100%; padding: 0; box-sizing: border-box"
+            ></textarea>
+          </td>
+        </tr>
+        <tr>
+          <th><lable for="State" style="padding-right: 70px">State</lable></th>
+          <td>
+            <input
+              type="box"
+              name="State"
+              style="width: 100%; padding: 0; box-sizing: border-box"
+            />
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <lable for="Country" style="padding-right: 70px">Country</lable>
+          </th>
+          <td>
+            <select>
+              <option value="" disabled selected>choose the country</option>
+              <option>India</option>
+              <option>United Kingdom</option>
+              <option>Srilanka</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <th>
+            <lable for="Language" style="padding-right: 70px"
+              >Language Known</lable
+            >
+          </th>
+          <td>
+            <input type="checkbox" name="English" />English
+            <input type="checkbox" name="Kannada" />Kannada
+            <input type="checkbox" name="Hindi" />Hindi
+            <input type="checkbox" name="Telugu" />Telugu
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <input type="checkbox" />
+            <lable>Hereby I declare all the given details are true</lable>
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2" style="text-align: right">
+            <lable
+              >Log in to <a href="https://ethnus.com">ethnus</a>website</lable
+            >
+          </td>
+        </tr>
+      </table>
+      <br />
+      <button>Register</button>
+    </form>
+  </body>
+</html>
