@@ -1,0 +1,78 @@
+td,
+th {
+  border-radius: 50px;
+}
+
+table {
+  background-color: #96d4d3;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 160px;
+}
+
+td,
+th,
+table {
+  border: 1px solid black;
+}
+
+.figure {
+  margin: auto;
+  margin-top: 50px;
+
+  /* border: 1px solid black; */
+  width: 300px;
+  height: 200px;
+}
+
+.tempp {
+  border: 3px solid rgb(142, 215, 63);
+  width: 70px;
+  height: 40px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.temp_1 {
+  border-radius: 6px;
+}
+
+.temp_2 {
+  border-radius: 10px;
+}
+
+.temp_3 {
+  border-radius: 15px;
+}
+
+.temp_4 {
+  border-radius: 8px;
+}
+
+.temp_5 {
+  border-radius: 2px;
+}
+
+.temp_6 {
+  border-radius: 15px;
+}
+
+.temp_7 {
+  border-radius: 50%;
+}
+
+.temp_8 {
+  border-radius: 3px;
+}
+
+.temp_9 {
+  border-radius: 0px 15px 0px 15px;
+}
+button {
+  padding: 2px 3px;
+  background-color: violet;
+  font-weight: bold;
+  font-size: 20px;
+  border-style: double;
+}

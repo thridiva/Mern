@@ -1,0 +1,76 @@
+input:not(.G) {
+  padding: 0;
+  margin: 0px;
+  width: 100%;
+  border-radius: 0;
+  border: 0.5px solid black;
+  box-sizing: border-box;
+}
+
+table {
+  margin: 20px;
+
+  width: 300px;
+  height: 400px;
+}
+
+td,
+th {
+  color: white;
+}
+
+th {
+  text-align: left;
+  padding-right: 0px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.D-B {
+  background-color: #75203f;
+
+  width: 500px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.R-B {
+  width: 100%;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 17px;
+  margin-top: -20px;
+  border-radius: 5px;
+  border: none;
+}
+
+body {
+  background-color: #a22b55;
+}
+
+.G {
+  margin: 0;
+}
+
+.S-L {
+  background-color: #dddddd;
+}
+
+::placeholder {
+  padding-left: 5px;
+}
+
+button {
+  padding: 2px 3px;
+  background-color: violet;
+  font-weight: bold;
+  font-size: 20px;
+  border-style: double;
+}

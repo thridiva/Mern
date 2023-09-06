@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style04.css" />
+    <title>Task 4</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+
+      .B {
+        height: 60vh;
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .M-B {
+        display: flex;
+        width: 50px;
+        height: 50px;
+        margin-bottom: 10px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+      }
+
+      .M-B a {
+        display: block;
+        transition: 1s;
+        transition-property: transform;
+      }
+
+      .F {
+        background-color: #04a96d;
+      }
+
+      .S {
+        background-color: #2196f3;
+      }
+
+      .T {
+        background-color: #f44236;
+      }
+
+      .FO {
+        background-color: #555555;
+      }
+
+      .M-B:hover {
+        width: 60px;
+      }
+
+      .P-B {
+        display: inline-block;
+        margin-top: 92px;
+        margin-left: 60px;
+      }
+
+      h2 {
+        padding-bottom: 15px;
+      }
+      button {
+        padding: 2px 3px;
+        background-color: violet;
+        font-weight: bold;
+        font-size: 20px;
+        border-style: double;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="B">
+      <a class="M-B F" href="#"></a>
+
+      <a class="M-B S" href="https://www.java.com/en/"></a>
+
+      <a
+        class="M-B T"
+        href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+      ></a>
+
+      <a class="M-B FO" href="https://en.wikipedia.org/wiki/CSS"></a>
+    </div>
+
+    <div class="P-B">
+      <h2>Hoverable Sidenav Buttons</h2>
+      <p>Hover over the buttons in the left side navigation to open them.</p>
+    </div>
+  </body>
+</html>

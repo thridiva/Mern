@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0" />
+    <link href="style07.css" rel="stylesheet" type="text/css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="D-B">
+      <form>
+        <table cellspacing="0" cellpadding="0">
+          <tr>
+            <td><lable for="name">Name:</lable></td>
+            <td><input type="text" name="name" placeholder="your name" /></td>
+          </tr>
+
+          <tr>
+            <td><lable for="email">Email:</lable></td>
+            <td>
+              <input type="email" name="email" placeholder="your email" />
+            </td>
+          </tr>
+
+          <tr>
+            <td><lable for="password">Password:</lable></td>
+            <td><input type="password" name="password" /></td>
+          </tr>
+
+          <tr>
+            <td><lable for="number">Phone Number:</lable></td>
+            <td><input type="number" name="number" /></td>
+          </tr>
+
+          <tr>
+            <td><label for="gender">Gender:</label></td>
+            <td class="G">
+              <label for="male">Male:</label>
+              <input type="radio" class="G" name="gender" value="male" />
+              <label for="female">Female:</label>
+              <input type="radio" class="G" name="gender" value="female" />
+              <label for="others">Others:</label>
+              <input type="radio" class="G" name="gender" id="others" />
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="language">Language:</label></td>
+            <td>
+              <select class="S-L" name="language">
+                <option value="" disabled selected>Select language</option>
+                <option class="select_language">Telugu</option>
+                <option class="select_language">Hindi</option>
+                <option class="select_language">English</option>
+                <option class="select_language">Tamil</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><lable for="zip_code">Zip Code:</lable></td>
+            <td><input type="number" name="zip_code" /></td>
+          </tr>
+          <tr>
+            <td><lable for="about_section">About:</lable></td>
+            <td>
+              <textarea
+                name="address"
+                rows="2"
+                placeholder="Write about yourself..."
+                style="box-sizing: border-box; padding: 1; width: 100%"
+              ></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <button class="R-B">Register</button>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </body>
+</html>
